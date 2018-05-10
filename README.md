@@ -1,0 +1,3 @@
+在WYGetToken的头文件里，把需要授权的App的Key和Secret还有回调地址写上去，然后在ViewController的 ViewDidLoad里把账号密码填好，做了一下测试好像只要不是新注册的号，都是可以马上获得Token的。
+
+

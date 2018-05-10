@@ -13,9 +13,14 @@
 		1666DC0520A4A36A004C0C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1666DC0420A4A36A004C0C5F /* Assets.xcassets */; };
 		1666DC0820A4A36A004C0C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1666DC0620A4A36A004C0C5F /* LaunchScreen.storyboard */; };
 		1666DC0B20A4A36A004C0C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666DC0A20A4A36A004C0C5F /* main.m */; };
+		1666DC1420A4A564004C0C5F /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666DC1320A4A564004C0C5F /* NSString+Base64.m */; };
+		1666DC1820A4A5A2004C0C5F /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666DC1720A4A5A2004C0C5F /* RSAEncryptor.m */; };
+		1666DC1B20A4A6D9004C0C5F /* WYGetToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666DC1A20A4A6D9004C0C5F /* WYGetToken.m */; };
+		1A8931DBE0F206438050F82F /* libPods-Sina_Weibo_Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBAB02524973D217B4A244C /* libPods-Sina_Weibo_Login.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B7CA3F1B5EF682DE9F4FEA /* Pods-Sina_Weibo_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sina_Weibo_Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sina_Weibo_Login/Pods-Sina_Weibo_Login.debug.xcconfig"; sourceTree = "<group>"; };
 		1666DBF820A4A368004C0C5F /* Sina_Weibo_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sina_Weibo_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1666DBFB20A4A368004C0C5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1666DBFC20A4A368004C0C5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,14 @@
 		1666DC0720A4A36A004C0C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1666DC0920A4A36A004C0C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1666DC0A20A4A36A004C0C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1666DC1220A4A564004C0C5F /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		1666DC1320A4A564004C0C5F /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		1666DC1620A4A5A2004C0C5F /* RSAEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		1666DC1720A4A5A2004C0C5F /* RSAEncryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		1666DC1920A4A6D9004C0C5F /* WYGetToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYGetToken.h; sourceTree = "<group>"; };
+		1666DC1A20A4A6D9004C0C5F /* WYGetToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYGetToken.m; sourceTree = "<group>"; };
+		9BBAB02524973D217B4A244C /* libPods-Sina_Weibo_Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sina_Weibo_Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF679775B5B9D774E1A39FC5 /* Pods-Sina_Weibo_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sina_Weibo_Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sina_Weibo_Login/Pods-Sina_Weibo_Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8931DBE0F206438050F82F /* libPods-Sina_Weibo_Login.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				1666DBFA20A4A368004C0C5F /* Sina_Weibo_Login */,
 				1666DBF920A4A368004C0C5F /* Products */,
+				913806FC1AA0B1F9CE70FDFE /* Pods */,
+				CDF54713365E95330D21E105 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +74,8 @@
 		1666DBFA20A4A368004C0C5F /* Sina_Weibo_Login */ = {
 			isa = PBXGroup;
 			children = (
+				1666DC1520A4A589004C0C5F /* rsa */,
+				1666DC1120A4A53C004C0C5F /* WYWeiboLogin */,
 				1666DBFB20A4A368004C0C5F /* AppDelegate.h */,
 				1666DBFC20A4A368004C0C5F /* AppDelegate.m */,
 				1666DBFE20A4A368004C0C5F /* ViewController.h */,
@@ -71,6 +89,43 @@
 			path = Sina_Weibo_Login;
 			sourceTree = "<group>";
 		};
+		1666DC1120A4A53C004C0C5F /* WYWeiboLogin */ = {
+			isa = PBXGroup;
+			children = (
+				1666DC1220A4A564004C0C5F /* NSString+Base64.h */,
+				1666DC1320A4A564004C0C5F /* NSString+Base64.m */,
+				1666DC1920A4A6D9004C0C5F /* WYGetToken.h */,
+				1666DC1A20A4A6D9004C0C5F /* WYGetToken.m */,
+			);
+			path = WYWeiboLogin;
+			sourceTree = "<group>";
+		};
+		1666DC1520A4A589004C0C5F /* rsa */ = {
+			isa = PBXGroup;
+			children = (
+				1666DC1620A4A5A2004C0C5F /* RSAEncryptor.h */,
+				1666DC1720A4A5A2004C0C5F /* RSAEncryptor.m */,
+			);
+			path = rsa;
+			sourceTree = "<group>";
+		};
+		913806FC1AA0B1F9CE70FDFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B7CA3F1B5EF682DE9F4FEA /* Pods-Sina_Weibo_Login.debug.xcconfig */,
+				CF679775B5B9D774E1A39FC5 /* Pods-Sina_Weibo_Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDF54713365E95330D21E105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BBAB02524973D217B4A244C /* libPods-Sina_Weibo_Login.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +133,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1666DC0E20A4A36A004C0C5F /* Build configuration list for PBXNativeTarget "Sina_Weibo_Login" */;
 			buildPhases = (
+				45F1A4F805E9731CA27BD3DF /* [CP] Check Pods Manifest.lock */,
 				1666DBF420A4A368004C0C5F /* Sources */,
 				1666DBF520A4A368004C0C5F /* Frameworks */,
 				1666DBF620A4A368004C0C5F /* Resources */,
@@ -136,14 +192,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45F1A4F805E9731CA27BD3DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sina_Weibo_Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1666DBF420A4A368004C0C5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1666DC1420A4A564004C0C5F /* NSString+Base64.m in Sources */,
 				1666DC0020A4A368004C0C5F /* ViewController.m in Sources */,
+				1666DC1B20A4A6D9004C0C5F /* WYGetToken.m in Sources */,
 				1666DC0B20A4A36A004C0C5F /* main.m in Sources */,
 				1666DBFD20A4A368004C0C5F /* AppDelegate.m in Sources */,
+				1666DC1820A4A5A2004C0C5F /* RSAEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +361,7 @@
 		};
 		1666DC0F20A4A36A004C0C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B7CA3F1B5EF682DE9F4FEA /* Pods-Sina_Weibo_Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +378,7 @@
 		};
 		1666DC1020A4A36A004C0C5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF679775B5B9D774E1A39FC5 /* Pods-Sina_Weibo_Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
