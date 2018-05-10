@@ -14,21 +14,17 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - OpenSSL (1.0.210)
 
 DEPENDENCIES:
   - AFNetworking
-  - OpenSSL
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - OpenSSL
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
 
-PODFILE CHECKSUM: cea04e21f42a4e7d1841cbdb24958ce8fe92f481
+PODFILE CHECKSUM: db59b9878c5a640eb17e179dee03c7000ca1438e
 
 COCOAPODS: 1.5.0
